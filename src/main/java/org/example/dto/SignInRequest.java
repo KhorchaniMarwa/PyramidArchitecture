@@ -5,7 +5,7 @@ public class SignInRequest {
 
 
     @NotBlank
-    private String username;   // or email, depending on your design
+    private String username;
 
     @NotBlank
     private String password;
