@@ -3,7 +3,9 @@ package org.example.dto;
 import java.util.List;
 
 public class AuthResponse {
-
+/*
+dto = data transfer object : Java object used to transfer data between layers , its only fields + getters/setters no business logic
+*/
     private String token;
     private String tokenType = "Bearer";
     private Long id;
